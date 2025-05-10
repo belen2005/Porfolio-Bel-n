@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Belén</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="scroll-container">
+        <!-- HERO -->
+        <header class="navbar">
+            <div class="contenedor navbar-inner">
+                <div class="logo">
+                    <img src="img/aa.png" alt="logo">
+                </div>
+
+                <!-- Botón hamburguesa -->
+                <div class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <hr class="divider" />
+
+
+        <section class="intro-hello">
+            <div class="contenedor">
+                <div class="intro-texto">
+                    <h1>
+
+                       Diseñadora Digital / Web
+                    </h1>
+                    <a href="#contacto" class="cta-link">Hablemos de tu proyecto</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- SOBRE MÍ -->
+        <section class="section sobre-mi" id="sobre-mi">
+            <div class="contenedor sobre-mi-contenido">
+                <img src="img/Profile.png" alt="Foto de Belén" class="foto-perfil">
+                <h2 class="titulo-seccion">Sobre mí</h2>
+                <p class="texto-sobre-mi">
+                    Soy una diseñadora apasionada por crear experiencias digitales únicas. Mi objetivo es combinar
+                    creatividad, usabilidad y tecnología para generar proyectos que impacten.
+                </p>
+                <div class="tech-marquee">
+                    <div class="tech-track">
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 300 300" id="Layer_1">
+                                <style>
+                                    .st0 {
+                                        fill: #000
+                                    }
+
+                                    .st1 {
+                                        fill: #000
+                                    }
+
+                                    .st2 {
+                                        fill: #000
+                                    }
+
+                                    .st3 {
+                                        fill: #000
+                                    }
+
+                                    .st4 {
+                                        fill: #000
+                                    }
+                                </style>
+                                <title>Figma.logo</title>
+                                <desc>Created using Figma</desc>
+                                <path id="path0_fill" class="st0"
+                                    d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" />
+                                <path id="path1_fill" class="st1"
+                                    d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" />
+                                <path id="path1_fill_1_" class="st2"
+                                    d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" />
+                                <path id="path2_fill" class="st3"
+                                    d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" />
+                                <path id="path3_fill" class="st4"
+                                    d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" />
+                            </svg>
+                            <span>Figma</span>
+                        </div>
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M2 12.1333C2 8.58633 2 6.81283 2.69029 5.45806C3.29749 4.26637 4.26637 3.29749 5.45806 2.69029C6.81283 2 8.58633 2 12.1333 2H19.8667C23.4137 2 25.1872 2 26.5419 2.69029C27.7336 3.29749 28.7025 4.26637 29.3097 5.45806C30 6.81283 30 8.58633 30 12.1333V19.8667C30 23.4137 30 25.1872 29.3097 26.5419C28.7025 27.7336 27.7336 28.7025 26.5419 29.3097C25.1872 30 23.4137 30 19.8667 30H12.1333C8.58633 30 6.81283 30 5.45806 29.3097C4.26637 28.7025 3.29749 27.7336 2.69029 26.5419C2 25.1872 2 23.4137 2 19.8667V12.1333Z"
+                                    fill="#000" />
+                                <path
+                                    d="M15.5686 19.5963H11.2297L10.3469 22.409C10.3224 22.5135 10.2262 22.5875 10.1215 22.5823H7.92384C7.79851 22.5823 7.75469 22.5117 7.79236 22.3704L11.549 11.2738C11.5866 11.1582 11.6242 11.0266 11.6617 10.8789C11.7109 10.6218 11.736 10.3606 11.7369 10.0987C11.7261 10.0213 11.7941 9.95294 11.8683 9.96378H14.8549C14.9424 9.96378 14.9924 9.9959 15.0051 10.0601L19.269 22.3897C19.3065 22.5182 19.269 22.5824 19.1563 22.5823H16.7144C16.6288 22.5921 16.547 22.5334 16.5266 22.4475L15.5686 19.5963ZM11.9059 17.1689H14.8737C14.3861 15.5027 13.8358 13.8584 13.3898 12.1793C12.9086 13.8613 12.3836 15.5365 11.9059 17.1689Z"
+                                    fill="#fff" />
+                                <path
+                                    d="M21.8045 12.0058C21.6129 12.0137 21.4219 11.98 21.2438 11.907C21.0658 11.834 20.9048 11.7232 20.7714 11.582C20.6384 11.4346 20.535 11.2618 20.4673 11.0733C20.3996 10.8849 20.3689 10.6846 20.3769 10.4839C20.3701 10.2852 20.4042 10.0873 20.477 9.90305C20.5499 9.71881 20.6598 9.5524 20.7996 9.41468C20.938 9.27839 21.1014 9.17161 21.2804 9.10052C21.4593 9.02942 21.6502 8.99543 21.842 9.00049C22.2929 9.00049 22.6466 9.13856 22.9033 9.41468C23.0329 9.55818 23.1336 9.72648 23.1997 9.90995C23.2657 10.0934 23.2959 10.2885 23.2883 10.4839C23.2962 10.6853 23.2645 10.8864 23.1951 11.075C23.1258 11.2636 23.0201 11.436 22.8845 11.582C22.7428 11.7253 22.5736 11.8369 22.3878 11.9099C22.2019 11.9828 22.0033 12.0155 21.8045 12.0058ZM20.5084 22.3896V13.181C20.5084 13.0654 20.5583 13.0076 20.6587 13.0076H22.9691C23.0691 13.0076 23.1192 13.0654 23.1193 13.181V22.3896C23.1193 22.5182 23.0692 22.5824 22.9691 22.5823H20.6775C20.5648 22.5823 20.5084 22.5181 20.5084 22.3896Z"
+                                    fill="#fff" />
+                            </svg>
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 123.30600000000001 595.279 595.279">
+                                <radialGradient id="a" cx="-183.69" cy="328.972" r=".76"
+                                    gradientTransform="matrix(545.6736 0 0 528.3113 100439.305 -173525.125)"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#34364e" stop-opacity=".98" />
+                                    <stop offset="1" stop-color="#0c0824" />
+                                </radialGradient>
+                                <path d="M24.803 155.549h545.674v530.792H24.803V155.549z" fill="url(#a)" />
+                                <path
+                                    d="M24.803 155.549h545.674v530.792H24.803V155.549zM0 711.145h595.28V130.746H0v580.399zm401.318-342.287c-19.595 0-26.291 9.921-26.291 18.106 0 8.929 4.464 15.13 30.756 28.772 38.941 18.851 51.095 36.957 51.095 63.497 0 39.685-30.26 61.016-71.186 61.016-21.579 0-40.182-4.465-50.847-10.665-1.736-.744-1.984-1.984-1.984-3.969v-36.461c0-2.48 1.24-3.225 2.977-1.984 15.626 10.17 33.484 14.634 49.854 14.634 19.595 0 27.78-8.185 27.78-19.347 0-8.929-5.705-16.866-30.757-29.764-35.221-16.866-49.854-33.98-49.854-62.504 0-31.997 25.052-58.536 68.457-58.536 21.331 0 36.213 3.225 44.398 6.945 1.984 1.24 2.48 3.224 2.48 4.96v33.98c0 1.984-1.24 3.225-3.721 2.48-10.913-6.943-27.035-11.16-43.157-11.16zm-213.309 29.516c5.705.496 10.17.496 20.091.496 29.021 0 56.304-10.169 56.304-49.606 0-31.5-19.595-47.375-52.583-47.375-9.921 0-19.347.496-23.812.744v95.741zM143.86 266.668c0-1.736 3.473-2.977 5.456-2.977 15.875-.744 39.438-1.24 63.993-1.24 68.705 0 95.492 37.701 95.492 85.82 0 63-45.638 90.036-101.693 90.036-9.425 0-12.649-.496-19.347-.496v95.245c0 1.984-.744 2.976-2.976 2.976h-37.949c-1.984 0-2.977-.744-2.977-2.976V266.668z"
+                                    fill="#fff" />
+                            </svg>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+                                <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#000" />
+                                <path d="M26 5H16V29.5L24 27L26 5Z" fill="#000" />
+                                <path
+                                    d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z"
+                                    fill="white" />
+                            </svg>
+                            <span>Html</span>
+                        </div>
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+                                <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#000" />
+                                <path d="M26 5H16V29.5L24 27L26 5Z" fill="#000" />
+                                <path
+                                    d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z"
+                                    fill="white" />
+                            </svg>
+                            <span>CSS</span>
+                        </div>
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <title>file_type_js_official</title>
+                                <rect x="2" y="2" width="28" height="28" style="fill:#000" />
+                                <path
+                                    d="M20.809,23.875a2.866,2.866,0,0,0,2.6,1.6c1.09,0,1.787-.545,1.787-1.3,0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964,0-1.973,1.5-3.476,3.853-3.476a3.889,3.889,0,0,1,3.742,2.107L25,18.128A1.789,1.789,0,0,0,23.311,17a1.145,1.145,0,0,0-1.259,1.128c0,.789.489,1.109,1.618,1.6l.658.282c2.236.959,3.5,1.936,3.5,4.133,0,2.369-1.861,3.667-4.36,3.667a5.055,5.055,0,0,1-4.795-2.691Zm-9.295.228c.413.733.789,1.353,1.693,1.353.864,0,1.41-.338,1.41-1.653V14.856h2.631v8.982c0,2.724-1.6,3.964-3.929,3.964a4.085,4.085,0,0,1-3.947-2.4Z"fill="white" />
+                            </svg>
+                            <span>Java Script</span>
+                        </div>
+                        <div class="herramienta">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.5 256 256"
+                                preserveAspectRatio="xMinYMin meet">
+                                <g fill="#161614">
+                                    <path
+                                        d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0" />
+                                    <path
+                                        d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398" />
+                                </g>
+
+                            </svg>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos-destacados" id="proyectos">
+            <div class="contenedor">
+                <div class="proyectos-header">
+                    <h2>Proyectos Recientes</h2>
+                </div>
+                <div class="carousel-wrapper">
+                    <button onclick="scrollCarousel(-1)">←</button>
+                    <div class="proyectos-container" id="carousel">
+                        <div class="proyecto-item">
+                            <img src="img/proyecto1.png" alt="Brava" />
+
+                            <div class="contenido-proyecto">
+                                <strong class="nombre-proyecto">Brava</strong>
+                                <a href="proyectos.html?id=brava" class="ver-mas-proyecto">Ver más →</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-item">
+                            <img src="img/proyecto2.png" alt="CulPadel" />
+
+                            <div class="contenido-proyecto">
+                                <strong class="nombre-proyecto">CulPadel</strong>
+                                <a href="proyectos.html?id=culpadel" class="ver-mas-proyecto">Ver más →</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-item">
+                            <img src="img/proyecto3.png" alt="Ilumina" />
+                            <div class="contenido-proyecto">
+                                <strong class="nombre-proyecto">Ilumina</strong>
+                                <a href="proyectos.html?id=ilumina" class="ver-mas-proyecto">Ver más →</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-item">
+                            <img src="img/proyecto4.png" alt="Bakery Kitchen" />
+
+                            <div class="contenido-proyecto">
+                                <strong class="nombre-proyecto">Bakery Kitchen</strong>
+                                <a href="proyectos.html?id=bakerykitchen" class="ver-mas-proyecto">Ver más →</a>
+                            </div>
+                        </div>
+                        <div class="proyecto-item">
+                            <img src="img/proyecto5.png" alt="Catálogo Tipográfico" />
+                            <div class="contenido-proyecto">
+                                <strong class="nombre-proyecto">Cátalogo Tipográfico</strong>
+                                <a href="proyectos.html?id=catalogo" class="ver-mas-proyecto">Ver más →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="scrollCarousel(1)">→</button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contenedor contacto-wrapper">
+                <div class="contacto-info">
+                    <h2>¡Trabajemos juntos!</h2>
+                    <p>Si deseas ponerte en contacto conmigo, completa el formulario o escríbeme a</p>
+                    <a href="contactobelends@gmail.com" class="correo">contactobelends@gmail.com</a>
+                </div>
+                <form class="formulario-contacto">
+                    <div class="campo-doble">
+                        <input type="text" placeholder="Nombre completo *" required>
+                        <input type="email" placeholder="Correo electrónico *" required>
+                    </div>
+                    <textarea placeholder="Mensaje *" required></textarea>
+                    <button type="submit" id="button-contact">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="contenedor footer-contenido">
+                <p class="footer-nombre">Belén Dos Santos</p>
+                <div class="footer-redes">
+                    <a href="https://www.behance.net/tuusuario" target="_blank" aria-label="Behance">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- SCROLL INDICATOR -->
+    <div class="scroll-line">
+        <div class="scroll-indicator"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
