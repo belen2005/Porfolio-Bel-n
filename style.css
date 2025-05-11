@@ -180,7 +180,8 @@ body {
     display: none;
     background-color: #0e0c09;
     z-index: 999;
-    padding: 0 20px; /* 👈 mismo padding lateral que el header */
+    padding: 0 20px;
+    /* 👈 mismo padding lateral que el header */
     box-sizing: border-box;
   }
 
@@ -622,7 +623,7 @@ body {
 
 /* CONTACTO */
 .contacto {
-  background-color: #f0e9e0;
+  background-color: #fff;
   color: #14100A;
   padding: 80px 20px;
 }
@@ -630,15 +631,13 @@ body {
 .contacto-wrapper {
 
   margin: auto;
-  display: flex;
+
   flex-wrap: wrap;
   gap: 60px;
   align-items: flex-start;
 }
 
-.contacto-info {
-  flex: 1;
-}
+
 
 .contacto-info h2 {
   font-size: 3rem;
@@ -651,13 +650,13 @@ body {
 }
 
 .contacto-info .correo {
-  color: #fff;
+  color: #aaa;
   font-weight: bold;
   text-decoration: none;
 }
 
 .formulario-contacto {
-  flex: 2;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -676,12 +675,11 @@ body {
 }
 
 input, textarea, select {
-  width: 100%;
   padding: 15px;
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #aaa;
   background: transparent;
-  color: #fff;
+  color:  #313131;
   font-size: 1rem;
   outline: none;
 }
@@ -692,7 +690,11 @@ select {
   color: #aaa;
 }
 
-button {
+#contacto button {
+  width: 30%;
+  margin-top: 16px;
+  font-size: 1rem;
+  padding: 12px 24px;
   border: none;
   background: #14100A;
   color: #f0e9e0;
@@ -1057,17 +1059,15 @@ a#link:hover {
     gap: 16px;
   }
 
-  input, textarea, select {
-    font-size: 0.95rem;
-    width: 100%;
-    padding: 14px;
-  }
-
   textarea {
+    resize: none;
     min-height: 120px;
+    max-height: 120px;
+    line-height: 1.6;
   }
 
   button#button-contact {
+    width: 100%;
     align-self: center;
     margin-top: 16px;
     font-size: 1rem;
@@ -1182,13 +1182,12 @@ a#link:hover {
   }
 
   input, textarea, select {
-    width: 100%;
     font-size: 0.95rem;
     padding: 14px;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #eee;
     background: transparent;
-    color: #fff;
+    color: #313131;
   }
 
   textarea {
