@@ -2,30 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="proyecto-ampliado">
-        <header class="marca-fija">
-            <a href="index.html">Belén Dos Santos</a>
-          </header>
-        <div class="contenedor-proyecto">
-          <h1 id="titulo"></h1>
-          <div class="galeria-imagenes" id="galeria"></div>
-          <p id="descripcion"></p>
-          <a id="link" href="#" target="_blank">Ver proyecto en vivo</a>
+  <div id="scroll-container">
+    <header class="navbar">
+      <div class="contenedor navbar-inner">
+        <div class="logo">
+          <a href="index.html"><img src="img/aa.png" alt="Belén Dos Santos"></a>
         </div>
-      </section>
-        <!-- SCROLL INDICATOR -->
-    <div class="scroll-line">
-        <div class="scroll-indicator"></div>
-    </div>
-    <script src="proyectos.js"></script>
-    <script src="script.js"></script>
+
+        <div class="menu-toggle"
+          onclick="document.body.classList.toggle('menu-open'); document.querySelector('nav').classList.toggle('active')">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <hr class="divider" />
+    <section class="proyecto-ampliado">
+      <div class="contenedor-proyecto">
+        <h1 id="titulo"></h1>
+        <div class="galeria-imagenes" id="galeria"></div>
+        <p id="descripcion"></p>
+        <a id="link" href="#" target="_blank">Ver proyecto en vivo</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="contenedor footer-contenido">
+        <p class="footer-nombre">© 2025 Belén Dos Santos. Todos los derechos reservados.</p>
+        <div class="footer-redes">
+          <a href="https://www.behance.net/tuusuario" target="_blank" aria-label="Behance">
+            <i class="fab fa-behance"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- SCROLL INDICATOR -->
+  <div class="scroll-line">
+    <div class="scroll-indicator"></div>
+  </div>
+  <script src="proyectos.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
