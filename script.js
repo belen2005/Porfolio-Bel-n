@@ -41,25 +41,8 @@ scrollContainer.addEventListener('scroll', () => {
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav-link");
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      const id = entry.target.getAttribute("id");
-      const navItem = document.querySelector(`.nav-link[href="#${id}"]`);
 
-      if (entry.isIntersecting) {
-        navLinks.forEach((link) => link.classList.remove("active"));
-        navItem.classList.add("active");
-      }
-    });
-  },
-  {
-    rootMargin: "-40% 0px -50% 0px",
-    threshold: 0.1,
-  }
-);
 
-sections.forEach((section) => observer.observe(section));
 
 function scrollCarousel(direction) {
   const carousel = document.getElementById("carousel");

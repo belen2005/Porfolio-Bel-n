@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title id="titulo-pagina">Documento</title>
+   <link rel="icon" type="image/png" href="img/logo.png" />
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,48 +14,39 @@
     <header class="navbar">
       <div class="contenedor navbar-inner">
         <div class="logo">
-          <a href="index.html"><img src="img/aa.png" alt="Belén Dos Santos"></a>
+          <a href="index.html"><img src="img/a.png" alt="Belén Dos Santos"></a>
         </div>
-
-        <div class="menu-toggle"
-          onclick="document.body.classList.toggle('menu-open'); document.querySelector('nav').classList.toggle('active')">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <nav>
-          <ul class="nav-links">
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
 
     <hr class="divider" />
     <section class="proyecto-ampliado">
       <div class="contenedor-proyecto">
-        <h1 id="titulo"></h1>
         <div class="galeria-imagenes" id="galeria"></div>
-        <p id="descripcion"></p>
-        <a id="link" href="#" target="_blank">Ver proyecto en vivo</a>
+       
+      </div>
+    </section>
+    <section class="relacionados" id="relacionados">
+      <div class="contenedor">
+        <h2 class="titulo-ampliacion">Proyectos relacionados</h2>
+        <div class="grid-proyectos" id="relacionados-container">
+        </div>
       </div>
     </section>
     <footer class="footer">
       <div class="contenedor footer-contenido">
         <p class="footer-nombre">© 2025 Belén Dos Santos. Todos los derechos reservados.</p>
         <div class="footer-redes">
-          <a href="https://www.behance.net/tuusuario" target="_blank" aria-label="Behance">
-            <i class="fab fa-behance"></i>
+          <a href="https://www.behance.net/belendossantos" target="_blank" rel="noopener">
+            <img src="img/behance.png" alt="Behance">
           </a>
-          <a href="https://www.linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
+          <a href="https://www.linkedin.com/in/belen-dossantos/" target="_blank" rel="noopener">
+            <img src="img/linkedin.png" alt="LinkedIn">
           </a>
         </div>
       </div>
     </footer>
+
   </div>
 
   <!-- SCROLL INDICATOR -->
