@@ -245,7 +245,9 @@
                     <p>Si deseas ponerte en contacto conmigo, completa el formulario o escríbeme a</p>
                     <a href="contactobelends@gmail.com" class="correo">contactobelends@gmail.com</a>
                 </div>
-                <form class="formulario-contacto" id="formulario-contacto">
+                <form name="contacto" method="POST" data-netlify="true" class="formulario-contacto"
+                    id="formulario-contacto">
+                    <input type="hidden" name="form-name" value="contacto" />
                     <div class="campo-doble">
                         <input type="text" id="nombre" name="nombre" placeholder="Nombre completo *" required
                             pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]{2,50}" title="Solo letras y espacios">
