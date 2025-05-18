@@ -555,7 +555,7 @@ body {
 .nombre-proyecto {
   display: block;
   font-weight: bold;
-  color: #f0e9e0;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -611,7 +611,7 @@ body {
 
 .ver-mas-proyecto {
   font-size: 0.9rem;
-  color: #f0e9e0;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
 }
@@ -697,8 +697,8 @@ select {
   font-size: 1rem;
   padding: 12px 24px;
   border: none;
-  background: #14100A;
-  color: #f0e9e0;
+  background: #0e0c09;
+  color: #ffffff;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
@@ -713,8 +713,7 @@ button:hover {
 
 /* FOOTER */
 .footer {
-  background-color: #14100A;
-  color: #f0e9e0;
+  background-color: #0e0c09;
   padding: 40px 20px;
   text-align: center;
 }
@@ -1033,7 +1032,6 @@ a#link:hover {
     flex: 0 0 75vw;
     max-width: 320px;
     scroll-snap-align: center;
-    border-radius: 16px;
     overflow: hidden;
     background: #1e1b17;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -1046,7 +1044,6 @@ a#link:hover {
 
   .contenido-proyecto {
     padding: 12px;
-    text-align: center;
   }
 
   .nombre-proyecto {

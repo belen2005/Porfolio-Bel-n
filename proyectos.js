@@ -1,10 +1,10 @@
 const proyectos = {
   brava: {
-   titulo: "Brava",
+    titulo: "Brava",
     imagenes: ["img/brava.png"]
   },
   culpadel: {
-     titulo: "CulPadel",
+    titulo: "CulPadel",
     imagenes: ["img/culpadel.png"]
   },
   ilumina: {
@@ -12,10 +12,10 @@ const proyectos = {
     imagenes: ["img/ilumina.png"]
   },
   bakerykitchen: {
-     titulo: "Bakery Kitchen",
+    titulo: "Bakery Kitchen",
     imagenes: ["img/bakey-kitchen.png"]
   },
-  catalogo:{
+  catalogo: {
     titulo: "Catálogo Tipográfico",
     imagenes: ["img/catalogo.png"]
   }
@@ -37,7 +37,7 @@ if (proyectos[id]) {
 
 
 
-  // NUEVO BLOQUE: Proyectos relacionados
+  //Proyectos relacionados
   const proyectosRelacionados = {
     brava: {
       titulo: "Brava",
@@ -57,7 +57,7 @@ if (proyectos[id]) {
     },
     catalogo: {
       titulo: "Cátalogo Tipográfico",
-      imagen: "img/proyecto5.png"
+      imagen: "img/proyecto5.jpg"
     }
   };
 
@@ -65,6 +65,7 @@ if (proyectos[id]) {
 
   const relacionados = Object.entries(proyectosRelacionados)
     .filter(([key]) => key !== id)
+    .sort(() => Math.random() - 0.5)
     .slice(0, 2);
 
   relacionados.forEach(([relId, rel]) => {
