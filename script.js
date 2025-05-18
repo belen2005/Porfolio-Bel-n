@@ -7,12 +7,8 @@ scrollContainer.addEventListener('scroll', () => {
   scrollIndicator.style.height = progress + '%';
 });
 
-
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav-link");
-
-
-
 
 function scrollCarousel(direction) {
   const carousel = document.getElementById("carousel");
@@ -23,7 +19,6 @@ function scrollCarousel(direction) {
 function toggleMenu() {
   document.querySelector('.nav-links').classList.toggle('active');
 }
-
 
 const form = document.getElementById('formulario-contacto');
 
@@ -45,3 +40,5 @@ form.addEventListener('submit', function (e) {
     return;
   }
 });
+
+
